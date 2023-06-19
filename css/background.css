@@ -1,0 +1,79 @@
+#web_bg {
+    /*background-image: url("/img/bgimg.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.1) 5%, rgba(0, 228, 255, 0.5)), url("/img/background.png");*/
+    background: -webkit-linear-gradient(
+            0deg,
+            rgba(247, 149, 51, 0.2) 0,
+            rgba(243, 112, 85, 0.2) 15%,
+            rgba(239, 78, 123, 0.2) 30%,
+            rgba(161, 102, 171, 0.2) 44%,
+            rgba(80, 115, 184, 0.2) 58%,
+            rgba(16, 152, 173, 0.2) 72%,
+            rgba(7, 179, 155, 0.2) 86%,
+            rgba(109, 186, 130, 0.2) 100%
+    );
+    background: -moz-linear-gradient(
+            0deg,
+            rgba(247, 149, 51, 0.2) 0,
+            rgba(243, 112, 85, 0.2) 15%,
+            rgba(239, 78, 123, 0.2) 30%,
+            rgba(161, 102, 171, 0.2) 44%,
+            rgba(80, 115, 184, 0.2) 58%,
+            rgba(16, 152, 173, 0.2) 72%,
+            rgba(7, 179, 155, 0.2) 86%,
+            rgba(109, 186, 130, 0.2) 100%
+    );
+    background: -o-linear-gradient(
+            0deg,
+            rgba(247, 149, 51, 0.2) 0,
+            rgba(243, 112, 85, 0.2) 15%,
+            rgba(239, 78, 123, 0.2) 30%,
+            rgba(161, 102, 171, 0.2) 44%,
+            rgba(80, 115, 184, 0.2) 58%,
+            rgba(16, 152, 173, 0.2) 72%,
+            rgba(7, 179, 155, 0.2) 86%,
+            rgba(109, 186, 130, 0.2) 100%
+    );
+    background: -ms-linear-gradient(
+            0deg,
+            rgba(247, 149, 51, 0.2) 0,
+            rgba(243, 112, 85, 0.2) 15%,
+            rgba(239, 78, 123, 0.2) 30%,
+            rgba(161, 102, 171, 0.2) 44%,
+            rgba(80, 115, 184, 0.2) 58%,
+            rgba(16, 152, 173, 0.2) 72%,
+            rgba(7, 179, 155, 0.2) 86%,
+            rgba(109, 186, 130, 0.2) 100%
+    );
+    background: linear-gradient(
+            90deg,
+            rgba(247, 149, 51, 0.2) 0,
+            rgba(243, 112, 85, 0.2) 15%,
+            rgba(239, 78, 123, 0.2) 30%,
+            rgba(161, 102, 171, 0.2) 44%,
+            rgba(80, 115, 184, 0.2) 58%,
+            rgba(16, 152, 173, 0.2) 72%,
+            rgba(7, 179, 155, 0.2) 86%,
+            rgba(109, 186, 130, 0.2) 100%
+    );
+}
+
+
+/* 文章页背景 */
+.layout_post>#post {
+    /* 以下代表透明度为0.1 可以自行修改*/
+    background: rgba(255,255,255,0.1);
+}
+/* 所有页面背景 */
+#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
+    /* 以下代表透明度为0.1 */
+    background: rgba(255,255,255,0.1);
+}
+/*侧边卡片的透明度 */
+:root {
+    --card-bg: rgba(255, 255, 255, 0.1);
+}
+/* 页脚透明 */
+#footer {
+    /* 以下代表透明度为0.1 */
+    background: rgba(255,255,255, 0.1);
+}
